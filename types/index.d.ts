@@ -220,6 +220,10 @@ type IRenderListViewProps<T> = Omit<Omit<Omit<IPropsSwipeListView<T>, 'useFlatLi
 type RowMap<T> = { [open_cell_key: string]: SwipeRow<T>; };
 
 interface IPropsSwipeListView<T> {
+	/**
+	 * testID
+	 */
+	testID: string,
 	// data: T[];
 	// sections: Array<{
 	// 	title: string;
